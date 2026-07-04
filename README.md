@@ -63,11 +63,11 @@ Because of this:
 
 | 📄 File | 🧾 Description |
 |------|------|
-| `flight_data.py` | Pulls real-time flight data from AviationStack API |
-| `analyze.py` | Performs data analysis using pandas |
-| `flight_data.csv` | Raw dataset captured from API |
-| `flight_operations_dashboard.html` | Interactive dashboard (HTML/CSS) |
-| `[BRD Document](./BRD_Airline_Flight_Dashboard.pdf)` | Full Business Requirements Document |
+| flight_data.py | Pulls real-time flight data from AviationStack API |
+| analyze.py | Performs data analysis using pandas |
+| flight_data.csv | Raw dataset captured from API |
+| flight_operations_dashboard.html | Interactive dashboard (HTML/CSS) |
+| [BRD Document](./BRD_Airline_Flight_Dashboard.pdf) | Full Business Requirements Document |
 
 
 ---
