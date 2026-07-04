@@ -1,6 +1,6 @@
 # ✈️ Airline Flight Operations Dashboard
 
-🚀 A real-time flight schedule analytics project built to demonstrate an end-to-end Business Analyst workflow — from live API data extraction to cleaning, analysis, documentation, and interactive dashboard creation.
+🚀 A real-time flight schedule analysis project built to practice an end-to-end Business Analyst workflow — from live API data extraction to cleaning, analysis, documentation, and dashboard creation.
 
 ---
 
@@ -10,72 +10,93 @@ This project simulates a real-world airline operations analytics system using li
 
 It covers the full workflow:
 
-🌐 Data extraction → 🧹 Data cleaning → 📊 Analysis → 📈 Visualization → 📝 Business documentation
+🌐 Data Extraction → 🧹 Data Cleaning → 📊 Analysis → 📈 Visualization → 📝 Business Documentation
 
 ---
 
 ## ⚙️ What this project does
 
-- 🌍 Extracts real-time flight data using the **AviationStack API**
-- 🐍 Processes and cleans data using **Python (pandas)**
-- 📊 Analyzes key metrics such as:
-  - Top airlines ✈️  
-  - Busiest departure airports 🛫  
-  - Flight status distribution 📡  
-- 📈 Visualizes insights using:
-  - Power BI Dashboard 📊  
-  - Custom HTML/CSS Dashboard 🌐  
-- 📝 Documents complete Business Requirements (BRD) including:
-  - Objectives 🎯  
-  - Scope 📌  
-  - Methodology ⚙️  
-  - Findings 📊  
-  - Data limitations ⚠️  
+1. 🌍 **Pulls live flight data** from the [AviationStack API](https://aviationstack.com/) using Python  
+2. 🐍 **Cleans and analyzes data** using pandas  
+   - Top airlines ✈️  
+   - Busiest departure airports 🛫  
+   - Flight status breakdown 📡  
+3. 📊 **Visualizes insights in two formats:**
+   - Power BI Dashboard 📈  
+   - Custom HTML/CSS Dashboard 🌐  
+4. 📝 **Documents full business context (BRD):**
+   - Objectives 🎯  
+   - Scope 📌  
+   - Methodology ⚙️  
+   - Key Findings 📊  
+   - Data Limitations ⚠️  
 
 ---
 
-## 💡 Why this project is important
+## 💡 Why I built it this way
 
-Real-world data is often incomplete or imperfect.
+Real-world data is rarely perfect.
 
-⚠️ The free AviationStack API used in this project returned only limited “scheduled” flight data with minimal delay information.
+⚠️ The free-tier AviationStack API only provided limited “scheduled” flight data with almost no delay information.
 
-Because of that:
+Because of this:
 
 - ❌ On-time performance analysis was not possible  
 - ✅ Instead of guessing, the limitation was clearly documented in the BRD  
 
-👉 This reflects real Business Analyst practice: **transparency over assumptions**
+👉 This demonstrates a key Business Analyst principle: **transparency over assumptions**
 
 ---
 
-## 📊 Key Insights
+## 📊 Key Findings
 
-| Metric | Value |
-|------|------|
+| 📌 Metric | 📈 Value |
+|----------|--------|
 | ✈️ Total flights captured | 100 |
 | 🏢 Distinct airlines | 42 |
 | 🛫 Distinct departure airports | 18 |
-| 🔥 Busiest airport | Tianjin Binhai International (32%) |
+| 🔥 Busiest departure airport | Tianjin Binhai International (32%) |
 
 ---
 
-## 📁 Project Structure
-📦 Airline-Flight-Operations-Dashboard
-├── 🐍 flight_data.py
-│   └── API data extraction script (AviationStack)
-│
-├── 🧹 analyze.py
-│   └── Data cleaning & analysis (pandas)
-│
-├── 📊 flight_data.csv
-│   └── Raw dataset captured from API
-│
-├── 🌐 flight_operations_dashboard.html
-│   └── Custom interactive dashboard (HTML/CSS)
-│
-├── 📄 BRD_Airline_Flight_Dashboard.docx
-│   └── Full Business Requirements Document
-│
-└── 🔐 .env (not included in repo)
-    └── API keys and sensitive credentials
+## 📁 Files in this repo
+
+| 📄 File | 🧾 Description |
+|------|------|
+| `flight_data.py` | Pulls real-time flight data from AviationStack API |
+| `analyze.py` | Performs data analysis using pandas |
+| `flight_data.csv` | Raw dataset captured from API |
+| `flight_operations_dashboard.html` | Interactive dashboard (HTML/CSS) |
+| `BRD_Airline_Flight_Dashboard.docx` | Full Business Requirements Document |
+
+---
+
+## 🛠 Tools Used
+
+🐍 Python (`requests`, `pandas`)  
+🌐 AviationStack API  
+📊 Power BI  
+🎨 HTML / CSS  
+📝 Business Analysis (BRD)
+
+---
+
+## ⚠️ Notes
+
+- 🔐 API keys are stored in `.env` file (not included in repo)  
+- ⛔ Free API limitations:
+  - 100 requests/month  
+  - No historical flight data  
+- 📌 Full limitations are documented in the BRD  
+
+---
+
+## 🚀 Outcome
+
+This project demonstrates:
+
+✔️ Real-time API integration  
+✔️ Data cleaning & analysis  
+✔️ Dashboard creation  
+✔️ Business documentation (BRD)  
+✔️ Handling real-world data limitations responsibly  
