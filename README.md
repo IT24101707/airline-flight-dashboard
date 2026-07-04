@@ -67,7 +67,7 @@ Because of this:
 | `analyze.py` | Performs data analysis using pandas |
 | `flight_data.csv` | Raw dataset captured from API |
 | `flight_operations_dashboard.html` | Interactive dashboard (HTML/CSS) |
-| `BRD_Airline_Flight_Dashboard.docx` | Full Business Requirements Document |
+| `[BRD Document](./BRD_Airline_Flight_Dashboard.pdf)` | Full Business Requirements Document |
 
 
 ---
