@@ -74,10 +74,9 @@ Because of this:
 
 ## 📊 Dashboard Preview
 
-### 🌐 Interactive Dashboard
-![Dashboard Preview](./flight_operations_dashboard.png)
+### 🌐 Flight Operations Dashboard
 
-
+![Dashboard](./Screenshot_4-7-2026_12371_.jpeg)
 ---
 
 ## 🛠 Tools Used
