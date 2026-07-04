@@ -61,3 +61,21 @@ Because of that:
 ---
 
 ## 📁 Project Structure
+📦 Airline-Flight-Operations-Dashboard
+├── 🐍 flight_data.py
+│   └── API data extraction script (AviationStack)
+│
+├── 🧹 analyze.py
+│   └── Data cleaning & analysis (pandas)
+│
+├── 📊 flight_data.csv
+│   └── Raw dataset captured from API
+│
+├── 🌐 flight_operations_dashboard.html
+│   └── Custom interactive dashboard (HTML/CSS)
+│
+├── 📄 BRD_Airline_Flight_Dashboard.docx
+│   └── Full Business Requirements Document
+│
+└── 🔐 .env (not included in repo)
+    └── API keys and sensitive credentials
