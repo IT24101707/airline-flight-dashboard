@@ -69,6 +69,15 @@ Because of this:
 | `flight_operations_dashboard.html` | Interactive dashboard (HTML/CSS) |
 | `BRD_Airline_Flight_Dashboard.docx` | Full Business Requirements Document |
 
+
+---
+
+## 📊 Dashboard Preview
+
+### 🌐 Interactive Dashboard
+![Dashboard Preview](./flight_operations_dashboard.png)
+
+
 ---
 
 ## 🛠 Tools Used
