@@ -1,4 +1,4 @@
-# ✈️ Airline Flight Operations Dashboard
+# 🛫✈️ Airline Flight Operations Dashboard
 
 🚀 A real-time flight schedule analysis project built to practice an end-to-end Business Analyst workflow — from live API data extraction to cleaning, analysis, documentation, and dashboard creation.
 
