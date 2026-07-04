@@ -1,40 +1,63 @@
-✈️ Airline Flight Operations Dashboard
+# ✈️ Airline Flight Operations Dashboard
 
-🚀 A real-time flight-schedule analysis project built to practice an end-to-end Business Analyst workflow — sourcing live data from an external API, processing it, documenting business requirements, and presenting insights through two different dashboard formats.
+🚀 A real-time flight schedule analytics project built to demonstrate an end-to-end Business Analyst workflow — from live API data extraction to cleaning, analysis, documentation, and interactive dashboard creation.
 
-📌 What this project does
-🌐 Pulls live flight data from the AviationStack API using Python
-🧹 Cleans and analyzes the data with pandas (top airlines, busiest departure airports, flight status breakdown)
-📊 Visualizes the findings two ways:
-📈 Power BI dashboard
-🌍 Custom-coded HTML/CSS dashboard
-📝 Documents the business context in a full Business Requirements Document (BRD), including objectives, scope, methodology, key findings, and — importantly — the data's limitations
-🎯 Why I built it this way
+---
 
-Real-world data is rarely perfect. ⚠️
-The free-tier API used here returned only "scheduled" flights with almost no delay data, which meant a reliable on-time-performance metric wasn't possible from this snapshot.
+## 📌 Project Overview
 
-Instead of estimating or fabricating results ❌, I clearly documented the data limitation in the BRD (BRD_Airline_Flight_Dashboard.docx).
+This project simulates a real-world airline operations analytics system using live flight data.
 
-👉 Being transparent about what the data can and cannot support is a core Business Analysis skill.
+It covers the full workflow:
 
-📊 Key findings
-📌 Metric	📈 Value
-✈️ Total flights captured	100
-🏢 Distinct airlines	42
-🛫 Distinct departure airports	18
-🔥 Busiest departure airport	Tianjin Binhai International (32%)
-📁 Files in this repo
-📄 File	🧾 Description
-flight_data.py	Pulls real-time flight data from the AviationStack API and saves it to CSV
-analyze.py	Loads the CSV and prints summary statistics (top airlines, busiest airports, status breakdown)
-flight_data.csv	The raw dataset captured during this run
-flight_operations_dashboard.html	Custom-coded dashboard (open in any browser)
-BRD_Airline_Flight_Dashboard.docx	Full Business Requirements Document
-🛠 Tools used
+🌐 Data extraction → 🧹 Data cleaning → 📊 Analysis → 📈 Visualization → 📝 Business documentation
 
-🐍 Python (requests, pandas) · 🌐 AviationStack API · 📊 Power BI · 🎨 HTML/CSS
+---
 
-⚠️ Notes
-🔐 API credentials are excluded from this repo (.env file, not uploaded) — you'll need your own free AviationStack API key to re-run flight_data.py.
-⛔ This project uses the free API tier, which limits requests to 100/month and does not include historical flight data — see the BRD for full details.
+## ⚙️ What this project does
+
+- 🌍 Extracts real-time flight data using the **AviationStack API**
+- 🐍 Processes and cleans data using **Python (pandas)**
+- 📊 Analyzes key metrics such as:
+  - Top airlines ✈️  
+  - Busiest departure airports 🛫  
+  - Flight status distribution 📡  
+- 📈 Visualizes insights using:
+  - Power BI Dashboard 📊  
+  - Custom HTML/CSS Dashboard 🌐  
+- 📝 Documents complete Business Requirements (BRD) including:
+  - Objectives 🎯  
+  - Scope 📌  
+  - Methodology ⚙️  
+  - Findings 📊  
+  - Data limitations ⚠️  
+
+---
+
+## 💡 Why this project is important
+
+Real-world data is often incomplete or imperfect.
+
+⚠️ The free AviationStack API used in this project returned only limited “scheduled” flight data with minimal delay information.
+
+Because of that:
+
+- ❌ On-time performance analysis was not possible  
+- ✅ Instead of guessing, the limitation was clearly documented in the BRD  
+
+👉 This reflects real Business Analyst practice: **transparency over assumptions**
+
+---
+
+## 📊 Key Insights
+
+| Metric | Value |
+|------|------|
+| ✈️ Total flights captured | 100 |
+| 🏢 Distinct airlines | 42 |
+| 🛫 Distinct departure airports | 18 |
+| 🔥 Busiest airport | Tianjin Binhai International (32%) |
+
+---
+
+## 📁 Project Structure
